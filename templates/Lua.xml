@@ -1,0 +1,12 @@
+<templateSet group="Lua">
+  <template name="lfunc" value="local function $FN$($PARAMS$)&#10;$END$&#10;end" description="local function functionName() end" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="FN" expression="" defaultValue="&quot;funcName&quot;" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="closure" value="function($PARAMS$) $END$ end" description="function() end" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="paramsig" value="$PARAMS$" description="param signature" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="PARAMS" expression="LuaFunctionParamSignature()" defaultValue="" alwaysStopAt="true" />
+  </template>
+</templateSet>

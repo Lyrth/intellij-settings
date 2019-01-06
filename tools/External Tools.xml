@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="runn" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Users\Lyr\IdeaProjects\DiscordEpiLog\src\luvit.exe" />
+      <option name="PARAMETERS" value="main.lua" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/Lyr/IdeaProjects/DiscordEpiLog/src" />
+    </exec>
+  </tool>
+  <tool name="copy" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Users\Lyr\IdeaProjects\DiscordSailv2\target\start.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/Lyr/IdeaProjects/DiscordSailv2/target" />
+    </exec>
+  </tool>
+</toolSet>

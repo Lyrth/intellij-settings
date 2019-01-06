@@ -1,0 +1,5 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="log4j.dtd" location="$USER_HOME$/IdeaProjects/DiscordBotTest" />
+  </component>
+</application>
